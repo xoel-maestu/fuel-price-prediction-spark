@@ -72,7 +72,7 @@ Generated artifacts (the `df_full.csv` checkpoint and `optuna_studies/` trial CS
 
 ## Credits
 
-Team project built together with [Pablo Fernández (@appuchias)](https://github.com/appuchias) and Miguel Planas. Pablo contributed the data loading and the first schedule and lag features; the exploratory analysis, feature engineering, preprocessing, model training and Optuna optimization are my work.
+Team project built together with [Pablo Fernández (@appuchias)](https://github.com/appuchias) and [Miguel Planas (@miguelplanas)](https://github.com/miguelplanas).
 
 ## References
 
