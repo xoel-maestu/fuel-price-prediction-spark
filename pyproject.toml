@@ -1,0 +1,20 @@
+[project]
+name = "fuel-price-prediction-spark"
+version = "1.0.0"
+description = "Fuel price prediction for A Coruna gas stations with PySpark and Optuna"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Xoel Maestu", email = "xoel.maestu@gmail.com" },
+]
+dependencies = [
+    "pyspark>=3.5",
+    "optuna>=3.6",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "scipy>=1.11",
+    "plotly>=5.20",
+    "jupyterlab>=4.0",
+]
