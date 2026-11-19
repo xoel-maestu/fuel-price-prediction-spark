@@ -7,6 +7,10 @@ Forecasting daily fuel prices for the gas stations of A Coruna (Spain) on 1.6M r
 ![Optuna](https://img.shields.io/badge/Optuna-3.6%2B-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+![Weekly median price of diesel, gasoline 95 E5 and LPG across 299 stations in A Coruna province, 2007 to 2025](docs/figures/price_history.png)
+
+The series the models forecast: weekly median price per fuel across the 299 stations in the dataset, with the 10th to 90th percentile band (`scripts/plot_price_history.py`).
+
 ## Overview
 
 Spanish gas stations report their prices daily to the government, which publishes them as open data. This project takes the historical series for the province of A Coruna (1,628,611 station-day records, 24 columns: per-fuel prices plus station metadata) and predicts the price of three target fuels: regular gasoline (95 E5), diesel (gasoleo A) and LPG (GLP).
